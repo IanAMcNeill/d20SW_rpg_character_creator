@@ -1,10 +1,10 @@
-import sys
+import sys , os.path
 from DICE_MECHANICS.Stat_rolls import STAT_ROLLS    #imports the "dice roll" function for stats
 from DICE_MECHANICS.attribute_mods import modifier  #imports the attribute modifiers for each stat
-from CLASSES import character_class                 #imports the individual classes from 'class' list
+from CLASSES import character_class, Fringer            #imports the individual classes from 'class' list
 from SPECIESFILES import SPECIES , human , bothan , cerean , duro , ewok , gammorean , gungan , ithorian , kelDor , monCalamari , quarren , rodian , sullustan , trandoshan , twiLek , wookie , zabrak			    #imports individual species from the 'species' list
 
-#Defines each specific 'Class' based on a separate list within the file 'character_class.py'
+#-------------Defines each specific 'Class' based on a separate list within the file 'character_class.py' ------------#
 STARTER_CLASS = character_class.starting_classes
 PRESTIGE_CLASS = character_class.prestige_classes
 DROID_CLASS = character_class.droid_classifications
@@ -12,7 +12,7 @@ DROID_CLASS = character_class.droid_classifications
 #######################################################################
 
 		
-### PRINTS starting  ATTRIBUTE SCORES ###
+###---------------- PRINTS starting  ATTRIBUTE SCORES -----------------###
 def stat_print():
 	print("Your starting stats are: " +
 	  "\n" + 'STR: ' + str(STR) + ' ' + str(modifier(STR)) \
@@ -25,8 +25,8 @@ def stat_print():
 
 #######################################################################
 
-
-def stat_size():                                    #function dictating creature size in metric units (height/weight)
+#--------- function dictating creature size in metric units (height/weight)-------#
+def stat_size():                                    
 
 	size = ''
 	if size == 'fine': 
@@ -66,7 +66,9 @@ def stat_size():                                    #function dictating creature
 ################################################################################
 
 
-### Questions for user to answer about character 
+###---------- Questions for user to answer about character ----------#
+
+#-----------------Name----------------#
 character_name = input("What is the name of this character? ")
 name_verify = input("Are you sure? (Y/N) ")
 	
@@ -76,21 +78,48 @@ elif name_verify == 'no' or name_verify == 'n':
 	while name_verify == 'no' or name_verify =='n':
 		character_name = input("Enter new name. ")
 		name_verify = input("Are you sure? (Y/N) ")
-		
+
+
+#--------------------CLASS ----------------#
+starter_classes = character_class.starting_classes
+print("\n".join(starter_classes))
+class_name = input("From the list above, what is your starting class? ").capitalize()
+
+class_desc = ''
+class_exploits = ''
+class_characteristcs = ''
+class_background = ''
+class_examples = ''
+class_impAbil = ''
+
+if class_name == character_class.starting_classes[0]:
+	class_desc = Fringer.description
+	class_exploits = Fringer.exploits
+	class_characteristcs = Fringer.characteristics
+	class_background = Fringer.background
+	class_examples = Fringer.examples
+	class_impAbil = Fringer.importantAbil
+elif class_name == CLASSES.character_class[1]:
+	class_desc = 'none'
+	
+character_lvl = 1
+class_lvl = 0
+
+#---------------- PERSONAL TRAITS -------------------#
 GENDER = input("What gender is this character? ")
 EYE_COLOR = input("What is the character's eye color? ")
 HAIR_COLOR = input("What color hair does the character have? ")
 SKIN_COLOR = input("What is the character's skin color? ")
-
-class_name = ''
-character_lvl = 1
-class_lvl = 0
 age = input("What age is your character? ")
 
 height , weight = stat_size()
-	
+
+
+#---------------------- SPECIES LIST -------------------#
 basic_species = SPECIES.starter_species
+
 print("\n".join(basic_species))
+
 species = input("From the list above, what species is " + character_name + '? \n').capitalize()
 
 ##################################################################################
