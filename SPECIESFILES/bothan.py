@@ -14,6 +14,8 @@ example_names = "EXAMPLE NAMES : \n \" Borsk Fey\'lya, Karka Kre\'fey, Koth Mela
 
 adventuring = "WHY THEY VENTURE OUT: \n \"Their curiosity leads some to be explorers and scouts. Even when a Bothan takes up a noble cause, his or her cultural upbringing makes it hard not to look for the profit and prestige in the situation.\""
 
+adjustments = "Species Abilities: \n \" +2 Dex | -2 Con (Preconfigured) \""
+
 strAdj = 0
 dexAdj = 2
 conAdj = -2
