@@ -16,6 +16,8 @@ adventuring = "WHY THEY VENTURE OUT: \n \"Would be adventurers do so in direct c
 
 adjustments = "Species Abilities: \n \" +2 Int | +2 Wis | -2 Dex (Preconfigured) \""
 
+special1 = "\"Special Trait: +2 species bonus on Initiatve checks.\"\n"
+
 strAdj = 0
 dexAdj = -2
 intAdj = 2
