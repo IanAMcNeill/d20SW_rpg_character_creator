@@ -16,6 +16,8 @@ adventuring = "WHY THEY VENTURE OUT: \n \"Duros adventurers include hyperspace e
 
 adjustments = "Species Abilities: \n \" +2 Dex | +2 Int | -2 Str | -2 Con (Preconfigured) \""
 
+special1 = "\"Special Trait: Receives the Spacer feat at 1st level. \"\n"
+
 strAdj = 0
 dexAdj = 2
 intAdj = 2
