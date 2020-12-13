@@ -16,6 +16,9 @@ adventuring = "WHY THEY VENTURE OUT: \n \"Humans champion causes rather than ter
 
 adjustments = "Species Abilities: \n \" No bonuses. \""
 
+special1 = "\"Special Trait: +4 extra skill points at first level. \n \
+            Special Trait: +1 extra feat at first level. \"\n"
+
 strAdj = 0
 dexAdj = 0
 conAdj = 0
@@ -35,3 +38,5 @@ skill_pts = 4
 feats =  1
 
 auto_language = "Read/Write Basic , Speak Basic. "
+
+
