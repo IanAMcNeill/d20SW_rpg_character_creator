@@ -1,18 +1,20 @@
 # Duro descriptions, traits and bonuses
 
-description = "DESCRIPTION : \n \"Humans dominate the core worlds and can be found in virtually every corner of the galaxy. Humans have always been people on the move. As a result they can be found on almost every inhabited planet. Human's remain one of the most dominant species throughout all eras of play.\" "
+description = "DESCRIPTION : \n \"Duros originate from the Duro System, located at the extreme edge of the Core region of space. With a near affinity to space travel, they were the first to leave their world and spread to the stars. Duros tend to stick to space lanes for income and adventure. Most Duro become trained pilots after learning to walk and talk.\" "
 
-personality = "PERSONALITY : \n \"Highly adaptable, tenacious, and willing to keep striving no matter the odds. They are flexble and ambitious, diverse in their tastes, morals, customs, and habits.\" "
+personality = "PERSONALITY : \n \"A Duros tends to be intesne and adventurous, always seeking to learn whats at the end of the next hyperspace jump. Pround, self-sufficient, fun-loving people who also have a tendency toward gregariousness.\" "
 
-physicality = "PHYSICAL DESCRIPTION : \n \"Average height (1.8 meters tall). Skin shades range from dark to pale, hair from black to blonde. Men are usually taller and heavier than women. Human's achieve maturity about the age of 15 and rarely live beyond 100.\""
+physicality = "PHYSICAL DESCRIPTION : \n \"Average height of a Duros is 1.8m tall. Hairless, with large eyes, wide lipless mouths and a skin color ranging from blue-gray to deep azure.\""
 
-homeworld = "HOMEWORLD : \n \"Various, including Coruscant, Corulag, Naboo, Tatooine and Alderaan.\""
+homeworld = "HOMEWORLD : \n \"They hail from the orbiting cities of the Duro System.\""
 
-language = "LANGUAGE(S) : \n \"Humans speak and read Basic. They typically learn other languages, including obscure ones.\""
+language = "LANGUAGE(S) : \n \"Duros are literate in Durese, and Basic.\""
 
-example_names = "EXAMPLE NAMES : \n \" Dustangle Riltka, Gol Slarka, Probos Mulk, Bechesmy Inrull, Fullua Riltka, Izrin Foll\"" 
+example_names = "EXAMPLE NAMES : \n \" Baniss Keeg, Ellor, Kadlo, Kir Vantai, Lai Nootka, Monnda Tebbo.\"" 
 
-adventuring = "WHY THEY VENTURE OUT: \n \"Humans champion causes rather than territories or groups.\""
+adventuring = "WHY THEY VENTURE OUT: \n \"Duros adventurers include hyperspace explorers, star charters, and spacers of all descriptions. They also gravitate toward the sciences. Some would rather smuggle and trade while few go into diplomacy.\""
+
+adjustments = "Species Abilities: \n \" +2 Dex | +2 Int | -2 Str | -2 Con (Preconfigured) \""
 
 strAdj = 0
 dexAdj = 2
@@ -33,6 +35,6 @@ base_speed_meters = 10
 skill_pts = 4
 feats =  1
 
-auto_language = "Read/Write Basic , Speak Basic. "
+auto_language = "Read/Write: Durese, and Basic , Speak: Basic and Durese "
 
 

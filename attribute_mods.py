@@ -27,3 +27,5 @@ def modifier(ATTRIBUTE):
 		mod = '+' + str(math.ceil(((ATTRIBUTE - 21) / 2 ) + 5))
 		
 	return mod
+	
+
