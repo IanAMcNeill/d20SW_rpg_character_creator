@@ -16,6 +16,9 @@ adventuring = "WHY THEY VENTURE OUT: \n \"Their curiosity leads some to be explo
 
 adjustments = "Species Abilities: \n \" +2 Dex | -2 Con (Preconfigured) \""
 
+special1 = "\"Special Trait: +2 species bonus on Gather Information \n \
+            Special Trait: +2 on Spot checks \"\n"
+
 strAdj = 0
 dexAdj = 2
 conAdj = -2
