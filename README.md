@@ -14,9 +14,10 @@ This is for learning purposes only and is only meant as a fan project. Do not su
 This project is not complete but is well on its way. 
 
 Update as of 12/13/2020:
+- Delete the file in the py_cache folder after downloading. It was only needed on GIT to make the directory.
 
-Known Errors and Crashes: 
+-Known Errors and Crashes: 
 
-- Choosing a separate species other than Bothan, Duro, Human, and Cerean
-- Mispelling any of the names mentioned in this document.
-- Choosing any classes other than FRINGER. (others are in the works)
+  - Choosing a separate species other than Bothan, Duro, Human, and Cerean
+  - Mispelling any of the names mentioned in this document. 
+  - Choosing any classes other than FRINGER. (others are in the works)
