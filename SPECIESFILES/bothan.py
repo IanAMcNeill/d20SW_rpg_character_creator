@@ -14,6 +14,13 @@ example_names = "EXAMPLE NAMES : \n \" Borsk Fey\'lya, Karka Kre\'fey, Koth Mela
 
 adventuring = "WHY THEY VENTURE OUT: \n \"Their curiosity leads some to be explorers and scouts. Even when a Bothan takes up a noble cause, his or her cultural upbringing makes it hard not to look for the profit and prestige in the situation.\""
 
+strAdj = 0
+dexAdj = 2
+conAdj = -2
+wisAdj = 0
+chaAdj = 0
+intAdj = 0
+
 trait_size = "Medium"
 trait_size.lower()
 size_bonus_defense = 0
@@ -26,4 +33,5 @@ skill_pts = 4
 feats =  1
 
 auto_language = "Read/Write Basic , Speak Basic, Read/Write Bothese, Speak Bothese"
+
 
