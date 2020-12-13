@@ -14,6 +14,15 @@ example_names = "EXAMPLE NAMES : \n \" Anakin, Arani, Bail, Ben, Beru, Biggs, Bo
 
 adventuring = "WHY THEY VENTURE OUT: \n \"Humans champion causes rather than territories or groups.\""
 
+adjustments = "Species Abilities: \n \" No bonuses. \""
+
+strAdj = 0
+dexAdj = 0
+conAdj = 0
+wisAdj = 0
+chaAdj = 0
+intAdj = 0
+
 trait_size = "Medium"
 trait_size.lower()
 size_bonus_defense = 0
