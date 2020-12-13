@@ -14,6 +14,8 @@ example_names = "EXAMPLE NAMES : \n \" Baniss Keeg, Ellor, Kadlo, Kir Vantai, La
 
 adventuring = "WHY THEY VENTURE OUT: \n \"Duros adventurers include hyperspace explorers, star charters, and spacers of all descriptions. They also gravitate toward the sciences. Some would rather smuggle and trade while few go into diplomacy.\""
 
+adjustments = "Species Abilities: \n \" +2 Dex | +2 Int | -2 Str | -2 Con (Preconfigured) \""
+
 strAdj = 0
 dexAdj = 2
 intAdj = 2
