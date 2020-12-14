@@ -1,6 +1,10 @@
 # Cerean descriptions, traits and bonuses
 
-description = "DESCRIPTION : \n \"Gugnans are an ancient species from Naboo with a warlike tradition. Gungans can hold their breath for extended periods of time, and they live within underwater cities. The most common Gungan race is the Otolla Gungan, characterized by taller, leaner frames and extended eyestalks. The rare Ankura Gungan has recessed eyes, gren skin, and a heavier, shorter frame. They are usually distrustful of strangers and slow to accept aid, Gungans are nevertheless brave, strong, and confident of their own traditions.\" "
+description = "DESCRIPTION : \n \"Gugnans are an ancient species from Naboo with a warlike tradition. Gungans can \
+    hold their breath for extended periods of time, and they live within underwater cities. The most common Gungan \
+    race is the Otolla Gungan, characterized by taller, leaner frames and extended eyestalks. The rare Ankura \
+    Gungan has recessed eyes, gren skin, and a heavier, shorter frame. They are usually distrustful of \
+    strangers and slow to accept aid, Gungans are nevertheless brave, strong, and confident of their own traditions.\" "
 
 personality = "PERSONALITY : \n \"Gungans are inquisive, cautious, and suspicious.\" "
 
@@ -12,7 +16,10 @@ language = "LANGUAGE(S) : \n \"Gungans speak gungan and Basic\""
 
 example_names = "EXAMPLE NAMES : \n \"Fassa, Jar Jar, Rugor, Tarpals, Toba, Tobler Ceel, Yoss.\"" 
 
-adventuring = "WHY THEY VENTURE OUT: \n \"Many leave their cities to explore the ancient swamps andshorelines. Since the treaty with the Humans of Naboo, some Gungans have taken a larger step into galacitc society. These brave individuals are driven by an impulse to explore and regain the warrior spirit of old. There have yet to be any Jedi from these people but there have been legends of adepts.\""
+adventuring = "WHY THEY VENTURE OUT: \n \"Many leave their cities to explore the ancient swamps andshorelines. \
+    Since the treaty with the Humans of Naboo, some Gungans have taken a larger step into galacitc society.\
+     These brave individuals are driven by an impulse to explore and regain the warrior spirit of old. There \
+    have yet to be any Jedi from these people but there have been legends of adepts.\""
 
 adjustments = "Species Abilities: \n \"-2 WIS | +2 CON (Preconfigured) \""
 
