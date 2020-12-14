@@ -1,4 +1,4 @@
-# Gamorean descriptions, traits and bonuses
+# Gamorrean descriptions, traits and bonuses
 
 description = "DESCRIPTION : \n \"Brutish and violent, the porcine Gamorreans come from the Outer Rim world of Gamorr. \
 Green-skinned with piglike snouts, tusks, and small horns, Gamorreans are respected for their great strength and short\
