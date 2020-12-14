@@ -660,7 +660,7 @@ else:
 			WIS = STAT_ROLLS()
 			CHA = STAT_ROLLS()
 		else:
-			re_roll = 'no'
+			print("\n Try again. \n")
 			
 		stat_print()
 		re_roll = input("Will these suffice? (Y/N) ")
