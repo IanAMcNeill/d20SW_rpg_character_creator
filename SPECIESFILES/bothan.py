@@ -1,4 +1,4 @@
-# Human descriptions, traits and bonuses
+# Bothan descriptions, traits and bonuses
 
 description = "DESCRIPTION : \n \" Bothans deal in information. They use it as a measure of wealth and power, \
 even wielding it as a weapon when necessary. Culturally, Bothans do not believe in direct conflict, but\
