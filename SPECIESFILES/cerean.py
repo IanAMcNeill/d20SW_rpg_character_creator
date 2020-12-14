@@ -1,23 +1,24 @@
 # Cerean descriptions, traits and bonuses
 
-description = "DESCRIPTION : \n \"Humans dominate the core worlds and can be found in virtually every corner of the galaxy. \
-    Humans have always been people on the move. As a result they can be found on almost every inhabited planet. Human's remain \
-    one of the most dominant species throughout all eras of play.\" "
+description = "DESCRIPTION : \n \"Cereans come from a remote Utopian world. Most are peaceful, following farming traditions that date back thousands \
+    of years. The species includes more females than males, and their society is matriarchal. Their high-domed heads hold binary brains, and two hearts\
+    beat in a Cerean's chest. With a non-aggressive heritage, it is only rarely that a Cerean develops the desire to adventure, and even more rare\
+     that one takes up the robes of a Jedi Knight.\" "
 
-personality = "PERSONALITY : \n \"Highly adaptable, tenacious, and willing to keep striving no matter the odds. They are flexble\
-     and ambitious, diverse in their tastes, morals, customs, and habits.\" "
+personality = "PERSONALITY : \n \"Tend to be calm, rational, and extremely logical\" "
 
-physicality = "PHYSICAL DESCRIPTION : \n \"Average height (1.8 meters tall). Skin shades range from dark to pale, hair from black \
-    to blonde. Men are usually taller and heavier than women. Human's achieve maturity about the age of 15 and rarely live beyond 100.\""
+physicality = "PHYSICAL DESCRIPTION : \n \"Average about 2 meters in height, with elogated craniums. They have a maturity rate and life span similar\
+     to that of Humans.\""
 
-homeworld = "HOMEWORLD : \n \"Various, including Coruscant, Corulag, Naboo, Tatooine and Alderaan.\""
+homeworld = "HOMEWORLD : \n \"Cerea\""
 
-language = "LANGUAGE(S) : \n \"Humans speak and read Basic. They typically learn other languages, including obscure ones.\""
+language = "LANGUAGE(S) : \n \"Speak and read Cerean and Basic.\""
 
-example_names = "EXAMPLE NAMES : \n \" Anakin, Arani, Bail, Ben, Beru, Biggs, Boba, Corran, Dack, Galak, Han, Jango, Lando, Leia, \
-    Luke, Mace, Mara, Obi-Wan, Owen, Qui-Gon, Wedge.\"" 
+example_names = "EXAMPLE NAMES : \n \"Ki-Adi, So Leet, Sylvn, Ti-Dal, Maj-Odo.\"" 
 
-adventuring = "WHY THEY VENTURE OUT: \n \"Humans champion causes rather than territories or groups.\""
+adventuring = "WHY THEY VENTURE OUT: \n \"Would be adventurers do so in direct contradiction to their traditions and beliefs. Aggression is \
+    a last resort only after all peaceful solutions are attempted. Their binary brains allow them to give equal weight to two different sides \
+    of an argument. A Force-user will often contemplate the light side and dark side simultaneously.\""
 
 adjustments = "Species Abilities: \n \" +2 Int | +2 Wis | -2 Dex (Preconfigured) \""
 
