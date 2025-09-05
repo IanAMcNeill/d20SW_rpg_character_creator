@@ -13,6 +13,7 @@ def STAT_ROLLS():
 	die_3 = d6_roll()
 	die_4 = d6_roll()
 
+# This is the 4D6 method. I wanted it to automatically drop  the lowest roll.
 	if die_1 == die_2:
 		if die_2 == die_3:
 			if die_3 == die_4:
